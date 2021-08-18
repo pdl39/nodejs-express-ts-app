@@ -3,7 +3,7 @@ const path = require('path');
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const appDir = fs.realpathSync(process.cwd());
-const expressServerPORT = process.env.PORT ?? 8085; // Make sure the manual port number = port number set in server/server.js
+const expressServerPORT = process.env.PORT ?? 8083; // Make sure the manual port number = port number set in server/server.js
 
 module.exports = merge(common, {
   mode: 'development',
@@ -13,7 +13,7 @@ module.exports = merge(common, {
     hot: true,
     compress: true,
     host: 'localhost',
-    port: 3031,
+    port: 3032,
     /* We will have two separte servers running on different ports:
     1) Webpack Dev Server for Frontend,
     2) Nodejs Express Server for Backend APIs

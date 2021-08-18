@@ -1,4 +1,6 @@
 .DS_Store
+.cache
+*.Cache
 
 node_modules
 *bundle.js*
@@ -9,6 +11,10 @@ node_modules
 # Ignore all build generated files in the root dist directory except for index.html
 /dist/*
 !/dist/index.html
+
+# .js | .js.map | .d.ts files (for Typescript Project)
+client/**/*.js*
+client/**/*.d.ts
 
 # Include only favicon.ico in assets/favicon/
 # ***********************************************************

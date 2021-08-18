@@ -6,16 +6,21 @@ const pk = require(path.resolve(appDir, 'package.json'));
 
 module.exports = {
   entry: {
-    main: [path.resolve(appDir, pk.main)]
+    main: path.resolve(appDir, pk.main)
   },
   resolve: {
     mainFields: ['browser', 'module', 'main'],
-    extensions: ['.js', '.json'],
+    extensions: ['.tsx', '.ts', '.js', '.json'],
     mainFiles: ['index'],
     modules: ['node_modules']
   },
   module: {
     rules: [
+      {
+        test: /\.tsx?$/i,
+        exclude: /node_modules/,
+        use: ["ts-loader"]
+      },
       {
         test: /\.m?jsx?$/i,
         exclude: /node_modules/,
@@ -49,6 +54,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
+        exclude: /node_modules/,
         use: ["html-loader"]
       }
     ]
@@ -59,6 +65,6 @@ module.exports = {
       inject: true,
       title: pk.name,
       favicon: pk.favicon,
-    }),
+    })
   ]
 }
