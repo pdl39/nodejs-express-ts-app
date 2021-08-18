@@ -8,6 +8,22 @@ All notable changes to **`nodejs-express-ts-app`** will be documented here.
 
 <br/>
 
+# [1.0.2] 2021-08-18
+
+### Added:
+- Dependencies:
+  - @babel/preset-typescript
+  - @typescript-eslint/eslint-plugin
+  - @typescript-eslint/parser
+
+### Changed:
+- .babelrc
+- .eslintrc.json
+
+<br/>
+
+<br/>
+
 # [1.0.1] 2021-08-18
 
 ### Changed:
