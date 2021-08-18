@@ -63,8 +63,8 @@ npm start
   - `webpack serve --config webpack.dev.js`
   - `nodemon server/server.js`
 - Development server has been designed to run two separate servers:
-  - Webpack Dev Server for frontend (at PORT 3031)
-  - Express Server for backend APIs (at PORT 8085)
+  - Webpack Dev Server for frontend (at PORT 3032)
+  - Express Server for backend APIs (at PORT 8083)
 - Other scripts are also included for starting the server (e.g. `npm run start:dev2`, which uses `webpack-dev-middleware`), but hot reload does not work with these.
 - Using `npm start` is recommended.
 - To adjust ports and other settings/logic, please configure accordingly.
