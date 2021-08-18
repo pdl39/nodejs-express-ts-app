@@ -1,6 +1,6 @@
 {
   "name": "nodejs-express-ts-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal webpack build for TypeScript Node.js Express Web App",
   "author": "pdl39",
   "license": "MIT",
