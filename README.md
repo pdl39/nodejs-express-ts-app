@@ -111,6 +111,17 @@ https://github.com/pdl39/nodejs-express-ts-app/issues
 
 <br/>
 
+---
+
+*This project was built using `nodejs-express-app`, which is a JavaScript version of the same boilerplate.*
+If you are looking for a boilerplate for your JavaScript Node.js Express project, you can refer to:
+
+### `nodejs-express-app`
+- github: https://github.com/pdl39/nodejs-express-app
+- npm: https://www.npmjs.com/package/nodejs-express-app
+
+---
+
 ## Thanks!
 
 ## Happy Coding :)
