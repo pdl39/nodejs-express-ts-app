@@ -1,6 +1,6 @@
 # Node.js Express TypeScript App
 
-## _A basic starting point for your TypeScript Node.js Express projects, built with Webpack._
+## _A basic starting point for your TypeScript Node.js Express projects, built with Webpack v5._
 
 - The build is based on vanilla JS with no specific frontend framework in mind,
 - but you can definitely add the frontend framework of your choice and update configurations accordingly.
@@ -35,6 +35,22 @@ Then, make sure to install dependencies:
 
 ```
 npm install
+```
+
+Then, compile typescipt files by running:
+
+```
+npx tsc
+```
+
+Or you can install TypeScript globally to use the global `tsc` command.
+
+```
+npm i -g typescript
+```
+
+```
+tsc
 ```
 
 To start the development server, run:
@@ -91,7 +107,7 @@ If you decide to change certain property names and values in `package.json` (e.g
 ## Issues
 
 If you find any new bugs/errors, please file issues at:
-https://github.com/pdl39/nodejs-express-app/issues
+https://github.com/pdl39/nodejs-express-ts-app/issues
 
 <br/>
 
