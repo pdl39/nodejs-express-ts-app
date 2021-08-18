@@ -75,6 +75,38 @@ To build your project for production, run:
 npm run build
 ```
 
+tsconfig.json is setup as below:
+```
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNEXT"
+    ],
+    "moduleResolution": "node",
+    "watch": true,
+    "jsx": "preserve",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "rootDir": "./"
+  }
+}
+```
+
 <br/>
 
 ## Notes on Configuration
@@ -113,7 +145,7 @@ https://github.com/pdl39/nodejs-express-ts-app/issues
 
 ---
 
-*This project was built using `nodejs-express-app`, which is a JavaScript version of the same boilerplate.*
+*This package was built using `nodejs-express-app`, which is a JavaScript version of the same boilerplate.*
 If you are looking for a boilerplate for your JavaScript Node.js Express project, you can refer to:
 
 ### `nodejs-express-app`
