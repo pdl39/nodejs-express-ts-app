@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A minimal webpack build for TypeScript Node.js Express Web App",
   "author": "pdl39",
-  "license": "ISC",
+  "license": "MIT",
   "main": "client/index.ts",
   "repository": {
     "type": "git",
